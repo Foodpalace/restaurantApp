@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Roshoi",
+      "hasCanvas": false,
+      "bodyTextLen": 447,
+      "bodyTextHash": "727d246f6c01e4d6247c34fbf8ace0a3acf9a5fb34e49b085560e63a65ec2d3a",
+      "bodyTextPrefix": "Roshoi See the marketplace clearly. Act without noise. Master ad",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Roshoi",
+      "hasCanvas": false,
+      "bodyTextLen": 193,
+      "bodyTextHash": "f7727c09dc7604c38ba96535f302c596f42176d230cc1babb5abfb17b26098d9",
+      "bodyTextPrefix": "Roshoi Sign in Use your work account. First sign-in becomes CEO ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (211 -> 447 chars, hash mismatch)",
+    "mobile: body text changed (85 -> 193 chars, hash mismatch)"
+  ]
+}

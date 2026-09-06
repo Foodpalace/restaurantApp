@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-0vZSBttN.js";import{t}from"./utils-DojpP95n.js";var n=e();function r({className:e,...r}){return(0,n.jsx)(`div`,{className:t(`rounded-xl border border-border bg-surface p-4 shadow-panel`,e),...r})}function i({className:e,...r}){return(0,n.jsx)(`h2`,{className:t(`font-display text-lg font-medium tracking-tight`,e),...r})}export{i as n,r as t};

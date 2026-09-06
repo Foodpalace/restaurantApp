@@ -1,0 +1,1 @@
+function e(e){let t=Math.random().toString(36).slice(2,10);return`${e}_${Date.now().toString(36)}${t}`}export{e as t};
